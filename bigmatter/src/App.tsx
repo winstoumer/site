@@ -14,7 +14,7 @@ function App() {
   };
 
   const handleTwitterClick = () => {
-    window.location.href = 'https://twitter.com/your_twitter_handle';
+    window.location.href = 'https://x.com/bigmatterstart';
   };
 
   return (
