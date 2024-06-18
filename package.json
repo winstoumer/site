@@ -1,0 +1,8 @@
+{
+  "name": "bigmatter",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cd bigmatter && npm run dev",
+    "build": "cd bigmatter && yarn install && npx tsc && vite build"
+  }
+}
