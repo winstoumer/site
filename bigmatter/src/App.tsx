@@ -28,16 +28,13 @@ function App() {
         </button>
       </div>
       <div className='content'>
-        <div className='title'>Big matter</div>
+        <div className='title'>BigMatter</div>
         <div className='title-description'>
           An NFT is more than just a picture.<br />Mine and improve your progress with NFTs!
         </div>
         <div className='play-position'>
           <button className='button-play' onClick={handleButtonClick}>Play</button>
         </div>
-      </div>
-      <div className='background'>
-        <img src='/capsule_5.png' className='matter-image' />
       </div>
       <HexagonGrid />
     </>

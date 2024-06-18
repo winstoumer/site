@@ -117,38 +117,6 @@ button:focus-visible {
   margin-top: 40px;
 }
 
-.background {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-}
-
-.matter-image {
-  max-width: 600px;
-  opacity: 1;
-  animation: heartbeat 1.5s infinite;
-}
-
-@keyframes heartbeat {
-  0% {
-    transform: scale(1);
-  }
-  25% {
-    transform: scale(1.1);
-  }
-  40% {
-    transform: scale(1);
-  }
-  60% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     color: #ffffff;
