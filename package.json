@@ -1,5 +1,5 @@
 {
-  "name": "bigmatter",
+  "name": "site",
   "version": "1.0.0",
   "scripts": {
     "start": "cd bigmatter && npm run dev",
